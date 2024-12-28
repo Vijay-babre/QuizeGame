@@ -1,0 +1,51 @@
+{
+    "quizzes": [
+      {
+        "id": 1,
+        "title": "Web Development Quiz",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What does HTML stand for?",
+            "options": [
+              "Hyperlinks and Text Markup Language",
+              "Home Tool Markup Language",
+              "Hyper Text Markup Language",
+              "Hyper Tool Markup Language"
+            ],
+            "correctAnswer": 2
+          },
+          {
+            "id": 2,
+            "question": "Which property is used to change the background color in CSS?",
+            "options": ["color", "bgcolor", "background-color", "background"],
+            "correctAnswer": 2
+          },
+          {
+            "id": 3,
+            "question": "Which of the following is a JavaScript framework?",
+            "options": ["React", "Django", "Flask", "Laravel"],
+            "correctAnswer": 0
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "General Knowledge Quiz",
+        "questions": [
+          {
+            "id": 4,
+            "question": "What is the capital of France?",
+            "options": ["Berlin", "Madrid", "Paris", "Rome"],
+            "correctAnswer": 2
+          },
+          {
+            "id": 5,
+            "question": "What is the largest planet in our solar system?",
+            "options": ["Mars", "Jupiter", "Saturn", "Neptune"],
+            "correctAnswer": 1
+          }
+        ]
+      }
+    ]
+  }

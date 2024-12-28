@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="playContainer">
+        <div style="border: 1px solid black; padding: 10px; background-color: white; border-radius: 20px;">
+            <div style="text-align: center;">
+                <img src="https://cdn-icons-png.flaticon.com/512/2958/2958990.png" width="100px">
+            </div>
+            <div style="align-items:center;">
+                <h1 style="color: black; text-align: center;">Quiz App</h1>
+                <p style="color: brown;">Test your knowledge with this app!</p>
+                <select id="quizSelect" style="width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 5px;"></select>
+                <button onclick="playClick()" class="btn btn-primary">Play Now!</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="quiz-container" style="display: none;" id="QuestionContainer">
+        <div class="quiz-header">
+            <div class="question" id="question">Loading question...</div>
+        </div>
+        <ul class="options" id="options"></ul>
+        <div class="footer">Quiz Game by [Your Name]</div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
